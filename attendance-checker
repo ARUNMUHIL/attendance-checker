@@ -1,0 +1,9 @@
+print("attendance calculate")
+total_days=int(input("enter the value for total days:"))
+attendance_day=int(input("enter attending days:"))
+total=(attendance_day/total_days)*100
+print("your attendance percentage=",total, "%")
+if total>=75:
+    print("you're eligible for exam.")
+else:
+    print("attendance shortage for exam.")
